@@ -1,0 +1,244 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #ffe4e1; /* Light pink background */
+}
+
+/* Header */
+header {
+    background-color: #ff69b4; /* Hot pink */
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header .navlist {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header .navlist li {
+    display: inline;
+}
+
+header .navlist a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+header .navlist a:hover {
+    background-color: #ff1493; /* Deeper pink */
+}
+
+/* Section Styles */
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 36px;
+    color: #ff69b4;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* Home Section */
+#home {
+    background-color: #ffc0cb; /* Light pink */
+    padding: 80px 20px;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #ff1493;
+}
+
+#home h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+#home .btn-box {
+    margin-top: 20px;
+}
+
+#home .btn {
+    text-decoration: none;
+    color: white;
+    background-color: #ff1493;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#home .btn:hover {
+    background-color: #ff69b4;
+}
+
+#home img {
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Social Media Icons */
+.social-media a {
+    color: #ff1493;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #ff69b4;
+}
+
+/* About Section */
+#about {
+    background-color: #ffe4e1;
+}
+
+#about .skills {
+    margin-top: 20px;
+}
+
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    font-size: 18px;
+    color: #ff1493;
+    margin: 10px 0;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #ffb6c1; /* Soft pink */
+}
+
+#projects .project {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#projects .btn {
+    color: white;
+    background-color: #ff1493;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#projects .btn:hover {
+    background-color: #ff69b4;
+}
+
+/* Contact Section */
+#contact {
+    background-color: #ffe4e1;
+}
+
+#contact form {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ff1493;
+    border-radius: 5px;
+    outline: none;
+}
+
+#contact form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff1493;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact form button:hover {
+    background-color: #ff69b4;
+}
+
+/* Blog Section */
+#blog {
+    background-color: #ffc0cb;
+}
+
+#blog article {
+    margin: 20px auto;
+    max-width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#blog .btn {
+    text-decoration: none;
+    color: white;
+    background-color: #ff1493;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#blog .btn:hover {
+    background-color: #ff69b4;
+}
